@@ -33,7 +33,7 @@ for filename in os.listdir('Z:\\Sega - Game Gear'):
         shutil.move(os.path.join('Z:\\Sega - Game Gear', filename), 'Z:\\Sega - Game Gear\\USA')
     elif re.match('[.*\(Europe\).*]', filename):
         shutil.move(os.path.join('Z:\\Sega - Game Gear', filename), 'Z:\\Sega - Game Gear\\Europe')
-    elif re.match('[.*\World.*]', filename):
+    elif re.match('[.*World.*]', filename):
         shutil.move(os.path.join('Z:\\Sega - Game Gear', filename), 'Z:\\Sega - Game Gear\\Wolrd')
 
 
@@ -42,7 +42,7 @@ for filename in os.listdir('Z:\\Sega - Master System - Mark III'):
         shutil.move(os.path.join('Z:\\Sega - Master System - Mark III', filename), 'Z:\\Sega - Master System - Mark III\\USA')
     elif re.match('[.*\(Europe\).*]', filename):
         shutil.move(os.path.join('Z:\\Sega - Master System - Mark III', filename), 'Z:\\Sega - Master System - Mark III\\Europe')
-    elif re.match('[.*\World.*]', filename):
+    elif re.match('[.*World.*]', filename):
         shutil.move(os.path.join('Z:\\Sega - Master System - Mark III', filename), 'Z:\\Sega - Master System - Mark III\\Wolrd')
 
 for filename in os.listdir('Z:\Sega - Mega Drive - Genesis'):
